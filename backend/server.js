@@ -95,6 +95,11 @@ app.post('/api/signup', async (req, res) => {
   });
 
 // Start the server
+
+app.get("/", (req, res) => {
+  res.json("This is backend");
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
