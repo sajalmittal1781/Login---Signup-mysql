@@ -68,7 +68,7 @@ const SignupForm = () => {
     }
 
     try {
-      const response = await fetch('https://login-signup-mysql-h790wqu99-sajals-projects-c75b5687.vercel.app/api/signup', {
+      const response = await fetch('https://login-frhn.onrender.com/api/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
