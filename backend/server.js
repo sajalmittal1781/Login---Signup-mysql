@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 app.enable("trust proxy");
 
-const allowedOrigins = ['http://localhost:3000', 'https://login-signup-mysql-6foc.vercel.app'];
+const allowedOrigins = ['https://login-signup-mysql-6foc.vercel.app','http://localhost:3000' ];
 app.use(cors({
   origin: allowedOrigins,
   credentials: true,
